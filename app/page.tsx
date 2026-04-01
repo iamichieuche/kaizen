@@ -70,8 +70,8 @@ export default function Home() {
                 You open a project and your head is already in the code.
                 You&rsquo;re not stopping to think &ldquo;which of my 250
                 skills applies here?&rdquo; You&rsquo;re thinking about the
-                feature. The deadline. The thing that feels slightly off but you
-                can&rsquo;t name it yet.
+                feature. The deadline. <em>The thing that feels slightly off but you
+                can&rsquo;t name it yet.</em>
               </p>
               <p>So I built a skill for that.</p>
             </section>
