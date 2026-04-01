@@ -38,6 +38,15 @@ export default function Home() {
 
           <div className="article-body">
             <section id="tldr">
+              <p className="intro-hook">
+                I have 250+ skills installed.{" "}
+                <em>Here&rsquo;s the one that ties them together.</em>
+              </p>
+              <p className="article-lede">
+                Building a toolkit is easy. The hard part is knowing which piece
+                of it to reach for, right now, in this project. This is how I
+                solved that.
+              </p>
               <p>
                 I&rsquo;ve been building out my agent skills toolkit for a
                 while. At some point I hit 250 installed skills. Things like{" "}
