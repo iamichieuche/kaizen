@@ -81,8 +81,8 @@ export default function Home() {
               <p>
                 The first skill in the pack is{" "}
                 <span className="skill-name">/theres-a-skill-for-that</span>.
-                It&rsquo;s a skill advisor for anyone building something who cares
-                about craft. It only cares about one thing; making your product
+                It&rsquo;s a skill advisor for designers, builders, design engineers,
+                and developers who care about craft and want their products to
                 look, move, and feel better. Not test coverage, not bundle size. The stuff you can
                 actually see.
               </p>
@@ -267,10 +267,10 @@ export default function Home() {
             <a href="https://x.com/ichieuche">X (Twitter)</a>
           </p>
           <a
-            href="https://github.com/iamichieuche/kaizen"
+            href="https://github.com/iamichieuche/theres-a-skill-for-that"
             className="footer-install"
           >
-            iamichieuche/kaizen
+            iamichieuche/theres-a-skill-for-that
           </a>
         </div>
       </footer>
