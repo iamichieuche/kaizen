@@ -199,6 +199,13 @@ h1 em {
   background: rgba(127,183,126,0.1);
 }
 
+.copy-btn--icon {
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Body content */
 .article-body {
   font-size: 17px;

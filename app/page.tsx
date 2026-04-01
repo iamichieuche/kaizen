@@ -193,7 +193,7 @@ export default function Home() {
               <div className="usage-examples">
                 <div className="usage-example">
                   <span className="slash">/</span>theres-a-skill-for-that
-                  <CopyButton text="/theres-a-skill-for-that" />
+                  <CopyButton icon text="/theres-a-skill-for-that" />
                 </div>
               </div>
 
@@ -203,17 +203,17 @@ export default function Home() {
                 <div className="usage-example">
                   <span className="slash">/</span>theres-a-skill-for-that{" "}
                   <span className="args">before we launch</span>
-                  <CopyButton text="/theres-a-skill-for-that before we launch" />
+                  <CopyButton icon text="/theres-a-skill-for-that before we launch" />
                 </div>
                 <div className="usage-example">
                   <span className="slash">/</span>theres-a-skill-for-that{" "}
                   <span className="args">the animations feel wrong</span>
-                  <CopyButton text="/theres-a-skill-for-that the animations feel wrong" />
+                  <CopyButton icon text="/theres-a-skill-for-that the animations feel wrong" />
                 </div>
                 <div className="usage-example">
                   <span className="slash">/</span>theres-a-skill-for-that{" "}
                   <span className="args">push the UI further</span>
-                  <CopyButton text="/theres-a-skill-for-that push the UI further" />
+                  <CopyButton icon text="/theres-a-skill-for-that push the UI further" />
                 </div>
               </div>
 
