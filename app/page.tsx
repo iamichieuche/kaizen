@@ -262,6 +262,7 @@ export default function Home() {
               </p>
 
               <p>
+                Built with <a href="https://claude.ai/code">Claude Code</a>.
                 Source on{" "}
                 <a href="https://github.com/iamichieuche/kaizen">GitHub</a>.
               </p>
