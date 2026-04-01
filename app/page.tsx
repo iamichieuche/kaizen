@@ -19,7 +19,7 @@ export default function Home() {
           </header>
 
           <div className="article-meta">
-            <span className="article-date">January 21, 2026</span>
+            <span className="article-date">April 1, 2026</span>
             <span className="meta-dot" />
             <span className="article-tag">Agent Skills</span>
           </div>
