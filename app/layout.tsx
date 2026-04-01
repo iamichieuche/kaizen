@@ -22,10 +22,36 @@ const jetbrainsMono = JetBrains_Mono({
   weight: ["400", "500"],
 });
 
+const BASE_URL = "https://iamichieuche.github.io/kaizen";
+
 export const metadata: Metadata = {
   title: "Kaizen — Agent skills for designers who ship",
   description:
-    "Building a toolkit is easy. The hard part is knowing which piece of it to reach for, right now, in this project.",
+    "/theres-a-skill-for-that — Reads your project, and tells you which skill to run right now so your work ships with craft, by iamichieuche",
+  openGraph: {
+    title: "Kaizen — Agent skills for designers who ship",
+    description:
+      "/theres-a-skill-for-that — Reads your project, and tells you which skill to run right now so your work ships with craft, by iamichieuche",
+    url: BASE_URL,
+    siteName: "Kaizen",
+    images: [
+      {
+        url: `${BASE_URL}/hero.jpg`,
+        width: 1320,
+        height: 880,
+        alt: "Kaizen — Agent skills for designers who ship",
+      },
+    ],
+    type: "article",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Kaizen — Agent skills for designers who ship",
+    description:
+      "/theres-a-skill-for-that — Reads your project, and tells you which skill to run right now so your work ships with craft, by iamichieuche",
+    images: [`${BASE_URL}/hero.jpg`],
+    creator: "@ichieuche",
+  },
 };
 
 export default function RootLayout({
