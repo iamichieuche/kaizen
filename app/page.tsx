@@ -18,22 +18,14 @@ export default function Home() {
             </p>
           </header>
 
-          <div className="hero-image">
-            <img src="/kaizen/hero.jpg" alt="" aria-hidden="true" />
-          </div>
-
           <div className="article-meta">
             <span className="article-date">April 2026</span>
             <span className="meta-dot" />
             <span className="article-tag">Agent Skills</span>
           </div>
 
-          <div className="install-hero">
-            <code>
-              <span>npx skills add</span> iamichieuche/kaizen{" "}
-              <span>-y -g</span>
-            </code>
-            <CopyButton text="npx skills add iamichieuche/kaizen -y -g" />
+          <div className="hero-image">
+            <img src="/kaizen/hero.jpg" alt="" aria-hidden="true" />
           </div>
 
           <div className="article-body">
@@ -59,10 +51,18 @@ export default function Home() {
                 You open a project and your head is already in the code.
                 You&rsquo;re not stopping to think &ldquo;which of my 250
                 skills applies here?&rdquo; You&rsquo;re thinking about the
-                feature. The deadline. <em>The thing that feels slightly off but you
+                feature. The deadline. <em className="muted">The thing that feels slightly off but you
                 can&rsquo;t name it yet.</em>
               </p>
               <p>So I built a skill for that.</p>
+
+              <div className="install-hero">
+                <code>
+                  <span>npx skills add</span> iamichieuche/kaizen{" "}
+                  <span>-y -g</span>
+                </code>
+                <CopyButton text="npx skills add iamichieuche/kaizen -y -g" />
+              </div>
             </section>
 
             <div className="divider">

@@ -96,6 +96,10 @@ nav .container {
   color: var(--text-secondary);
 }
 
+em.muted {
+  color: var(--text-tertiary);
+}
+
 /* Article header */
 .article-header {
   padding-top: 48px;
@@ -106,8 +110,8 @@ nav .container {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-top: 24px;
-  margin-bottom: 40px;
+  margin-top: 16px;
+  margin-bottom: 24px;
 }
 
 
