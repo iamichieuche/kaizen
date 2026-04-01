@@ -46,8 +46,7 @@ body {
 
 /* Nav */
 nav {
-  padding: 24px 0;
-  margin-bottom: 44px;
+  display: none;
 }
 
 nav .container {
@@ -83,15 +82,18 @@ nav .container {
 
 /* Article header */
 .article-header {
-  margin-bottom: 56px;
+  padding-top: 48px;
+  margin-bottom: 40px;
 }
 
 .article-meta {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 20px;
+  margin-top: 24px;
+  margin-bottom: 40px;
 }
+
 
 .article-date {
   font-size: 13px;
@@ -556,7 +558,7 @@ a {
 /* Table of contents — right side */
 .toc {
   position: fixed;
-  top: 120px;
+  top: 48px;
   left: max(24px, calc(50% - 344px - 200px));
   width: 148px;
   display: flex;

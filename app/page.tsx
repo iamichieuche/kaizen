@@ -8,45 +8,25 @@ export default function Home() {
     <>
       <Toc />
 
-      <nav>
-        <div className="container">
-          <a href="https://github.com/iamichieuche/kaizen" className="nav-logo">
-            Kaizen
-          </a>
-          <ul className="nav-links">
-            <li>
-              <a href="https://github.com/iamichieuche/kaizen">GitHub</a>
-            </li>
-            <li>
-              <a href="https://x.com/ichieuche">@ichieuche</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
       <main>
         <div className="container">
+          <header className="article-header">
+            <h1>There&rsquo;s a skill for that.</h1>
+            <p className="article-lede">
+              Point it at any project. It reads the room and tells you exactly
+              which skill to run next.
+            </p>
+          </header>
+
           <div className="hero-image">
             <img src="/kaizen/hero.jpg" alt="" aria-hidden="true" />
           </div>
 
-          <header className="article-header">
-            <div className="article-meta">
-              <span className="article-date">April 2026</span>
-              <span className="meta-dot" />
-              <span className="article-tag">Agent Skills</span>
-            </div>
-            <h1>
-              I have 250+ skills installed.
-              <br />
-              <em>Here&rsquo;s the one that ties them together.</em>
-            </h1>
-            <p className="article-lede">
-              Building a toolkit is easy. The hard part is knowing which piece
-              of it to reach for, right now, in this project. This is how I
-              solved that.
-            </p>
-          </header>
+          <div className="article-meta">
+            <span className="article-date">April 2026</span>
+            <span className="meta-dot" />
+            <span className="article-tag">Agent Skills</span>
+          </div>
 
           <div className="install-hero">
             <code>
