@@ -183,6 +183,10 @@ h1 em {
   font-size: 14px;
   color: var(--code-text);
   letter-spacing: -0.01em;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  outline: none;
 }
 
 .install-hero code span {
