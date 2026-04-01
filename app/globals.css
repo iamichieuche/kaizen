@@ -204,6 +204,13 @@ h1 em {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: transparent;
+  border-color: transparent;
+}
+
+.copy-btn--icon:hover {
+  background: transparent;
+  border-color: transparent;
 }
 
 /* Body content */
