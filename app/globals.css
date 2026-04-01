@@ -467,6 +467,51 @@ section {
 .usage-example .slash { color: #b8a4e8; }
 .usage-example .args { color: var(--code-comment); }
 
+/* Compatible agents */
+.compatible-agents {
+  margin: 32px 0;
+}
+
+.compatible-label {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-bottom: 12px !important;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 400;
+}
+
+.compatible-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.compatible-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 12px;
+  border-radius: 99px;
+  border: 1px solid var(--border-strong);
+  background: white;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+  box-shadow: var(--shadow);
+}
+
+.compatible-chip img {
+  border-radius: 3px;
+}
+
+.compatible-footer {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 0 !important;
+}
+
 /* Footer */
 footer {
   margin-top: 96px;

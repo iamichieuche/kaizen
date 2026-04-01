@@ -1,4 +1,5 @@
 import CopyButton from "./CopyButton";
+import CompatibleAgents from "./CompatibleAgents";
 import Toc from "./Toc";
 
 const SKILLS_SH = "https://skills.sh";
@@ -205,10 +206,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <p>
-                Works in Claude Code, Cursor, Codex, and any other agent that
-                supports the skills format.
-              </p>
+              <CompatibleAgents />
             </section>
 
             <div className="divider">
