@@ -248,8 +248,8 @@ export default function Home() {
               </p>
 
               <p>
-                Built with <a href="https://claude.ai/code">Claude Code</a>.
-                Source on{" "}
+                Built with <a href="https://claude.ai/code">Claude Code</a> and{" "}
+                <code>/theres-a-skill-for-that</code>. Source on{" "}
                 <a href="https://github.com/iamichieuche/kaizen">GitHub</a>.
               </p>
             </section>
