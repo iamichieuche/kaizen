@@ -81,9 +81,9 @@ export default function Home() {
               <p>
                 The first skill in the pack is{" "}
                 <span className="skill-name">/theres-a-skill-for-that</span>.
-                It&rsquo;s a skill advisor built for designer-engineers. It only
-                cares about one thing; making your product look, move, and feel
-                better. Not test coverage, not bundle size. The stuff you can
+                It&rsquo;s a skill advisor for anyone building something who cares
+                about craft. It only cares about one thing; making your product
+                look, move, and feel better. Not test coverage, not bundle size. The stuff you can
                 actually see.
               </p>
 
