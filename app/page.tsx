@@ -41,17 +41,16 @@ export default function Home() {
               </p>
               <p>
                 I&rsquo;ve been building out my agent skills toolkit for a
-                while. At some point I hit 250 installed skills. Things like{" "}
-                <code>/polish</code>, <code>/animate</code>,{" "}
+                while. Things like <code>/polish</code>, <code>/animate</code>,{" "}
                 <code>/delight</code>, <code>/critique</code>,{" "}
-                <code>/typeset</code>. All useful. All slowly fading from
+                <code>/typeset</code>. All useful. All slowly fading from my
                 memory.
               </p>
               <p>
                 You open a project and your head is already in the code.
-                You&rsquo;re not stopping to think &ldquo;which of my 250
-                skills applies here?&rdquo; You&rsquo;re thinking about the
-                feature. The deadline. <em className="muted">The thing that feels slightly off but you
+                You&rsquo;re not stopping to think &ldquo;which skill applies
+                here?&rdquo; You&rsquo;re thinking about the feature. The
+                deadline. <em className="muted">The thing that feels slightly off but you
                 can&rsquo;t name it yet.</em>
               </p>
               <p>So I built a skill for that.</p>

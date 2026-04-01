@@ -178,7 +178,8 @@ h1 em {
   box-shadow: var(--shadow-hover);
 }
 
-.install-hero code {
+.install-hero code,
+.article-body .install-hero code {
   font-family: var(--font-jetbrains-mono), 'Berkeley Mono', monospace;
   font-size: 14px;
   color: var(--code-text);
@@ -189,7 +190,8 @@ h1 em {
   outline: none;
 }
 
-.install-hero code span {
+.install-hero code span,
+.article-body .install-hero code span {
   color: var(--code-highlight);
 }
 
