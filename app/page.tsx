@@ -58,10 +58,10 @@ export default function Home() {
 
               <div className="install-hero">
                 <code>
-                  <span>npx skills add</span> iamichieuche/kaizen{" "}
+                  <span>npx skills add</span> iamichieuche/theres-a-skill-for-that{" "}
                   <span>-y -g</span>
                 </code>
-                <CopyButton text="npx skills add iamichieuche/kaizen -y -g" />
+                <CopyButton text="npx skills add iamichieuche/theres-a-skill-for-that -y -g" />
               </div>
             </section>
 
@@ -224,13 +224,13 @@ export default function Home() {
 
               <div className="code-block">
                 <div className="code-block-top">
-                  <CopyButton text={"npx skills add iamichieuche/kaizen -y -g\n\n/theres-a-skill-for-that"} />
+                  <CopyButton text={"npx skills add iamichieuche/theres-a-skill-for-that -y -g\n\n/theres-a-skill-for-that"} />
                 </div>
                 <pre>
                   <span className="comment"># Install globally</span>
                   {"\n"}
                   <span className="cmd">npx skills add</span>{" "}
-                  iamichieuche/kaizen <span className="flag">-y -g</span>
+                  iamichieuche/theres-a-skill-for-that <span className="flag">-y -g</span>
                   {"\n\n"}
                   <span className="comment"># Then use it anywhere</span>
                   {"\n"}
@@ -251,7 +251,7 @@ export default function Home() {
                 Built with <a href="https://claude.ai/code">Claude Code</a> and{" "}
                 <code>/theres-a-skill-for-that</code>.<br />
                 Source on{" "}
-                <a href="https://github.com/iamichieuche/kaizen">GitHub</a>.
+                <a href="https://github.com/iamichieuche/theres-a-skill-for-that">GitHub</a>.
               </p>
             </section>
           </div>
