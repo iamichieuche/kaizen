@@ -37,7 +37,7 @@ export default function Home() {
           </div>
 
           <div className="article-body">
-            <section>
+            <section id="tldr">
               <p>
                 I&rsquo;ve been building out my agent skills toolkit for a
                 while. At some point I hit 250 installed skills. Things like{" "}

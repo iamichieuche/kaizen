@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 
 const links = [
+  { href: "#tldr", label: "TL;DR" },
   { href: "#the-idea", label: "The idea" },
   { href: "#how-it-works", label: "How it works" },
   { href: "#usage", label: "Usage" },
