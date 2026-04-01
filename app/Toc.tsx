@@ -72,6 +72,9 @@ export default function Toc() {
 
   return (
     <div className="toc" aria-label="On this page" ref={tocRef}>
+      <div className="toc-image">
+        <img src="/kaizen/hero.jpg" alt="" aria-hidden="true" />
+      </div>
       {links.map(({ href, label }) => (
         <a key={href} href={href}>
           {label}

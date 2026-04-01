@@ -1,15 +1,7 @@
 import CopyButton from "./CopyButton";
 import Toc from "./Toc";
 
-const SKILL_URL = "https://skills.sh";
-
-function Skill({ name }: { name: string }) {
-  return (
-    <a href={SKILL_URL}>
-      <code>/{name}</code>
-    </a>
-  );
-}
+const SKILLS_SH = "https://skills.sh";
 
 export default function Home() {
   return (
@@ -65,9 +57,9 @@ export default function Home() {
               <p>
                 I&rsquo;ve been building out my agent skills toolkit for a
                 while. At some point I hit 250 installed skills. Things like{" "}
-                <Skill name="polish" />, <Skill name="animate" />,{" "}
-                <Skill name="delight" />, <Skill name="critique" />,{" "}
-                <Skill name="typeset" />. All useful. All slowly fading from
+                <code>/polish</code>, <code>/animate</code>,{" "}
+                <code>/delight</code>, <code>/critique</code>,{" "}
+                <code>/typeset</code>. All useful. All slowly fading from
                 memory.
               </p>
               <p>
@@ -95,13 +87,11 @@ export default function Home() {
               </p>
               <p>
                 The first skill in the pack is{" "}
-                <a href={SKILL_URL}>
-                  <span className="skill-name">/theres-a-skill-for-that</span>
-                </a>
-                . It&rsquo;s a skill advisor built for designer-engineers. It
-                only cares about one thing: making your product look, move, and
-                feel better. Not test coverage, not bundle size. The stuff you
-                can actually see.
+                <span className="skill-name">/theres-a-skill-for-that</span>.
+                It&rsquo;s a skill advisor built for designer-engineers. It only
+                cares about one thing; making your product look, move, and feel
+                better. Not test coverage, not bundle size. The stuff you can
+                actually see.
               </p>
 
               <div className="callout">It just makes a call.</div>
@@ -111,7 +101,7 @@ export default function Home() {
                 some half-finished landing page) and it reads the room. Your
                 stack, recent git changes, what files you&rsquo;ve been
                 touching. Then it checks your installed skills and the{" "}
-                <a href={SKILL_URL}>skills.sh</a> catalog and tells you what to
+                <a href={SKILLS_SH}>skills.sh</a> catalog and tells you what to
                 actually run.
               </p>
               <p>
@@ -173,7 +163,7 @@ export default function Home() {
               <p>
                 Then it gives you one to three skills. Never more. If one
                 clearly fits, it says one. If two work well together (say,{" "}
-                <Skill name="animate" /> and <Skill name="delight" />{" "}
+                <code>/animate</code> and <code>/delight</code>{" "}
                 before a launch) it&rsquo;ll say both, tell you why, and which
                 one to run first.
               </p>
@@ -181,7 +171,7 @@ export default function Home() {
               <p>
                 The recommendations are specific to what it actually found in
                 your project. Not generic. Not &ldquo;you could run{" "}
-                <Skill name="polish" /> at any time.&rdquo; It tells you{" "}
+                <code>/polish</code> at any time.&rdquo; It tells you{" "}
                 <em>why this skill, right now.</em>
               </p>
             </section>
@@ -194,39 +184,31 @@ export default function Home() {
 
             <section>
               <h2 id="usage">Usage</h2>
-              <p>Run it with no arguments for a full project read:</p>
+              <p>Run it with no arguments for a full project read;</p>
 
               <div className="usage-examples">
                 <div className="usage-example">
-                  <span>
-                    <span className="slash">/</span>theres-a-skill-for-that
-                  </span>
+                  <span className="slash">/</span>theres-a-skill-for-that
                   <CopyButton text="/theres-a-skill-for-that" />
                 </div>
               </div>
 
-              <p>Or give it context about what you&rsquo;re trying to do:</p>
+              <p>Or give it context about what you&rsquo;re trying to do;</p>
 
               <div className="usage-examples">
                 <div className="usage-example">
-                  <span>
-                    <span className="slash">/</span>theres-a-skill-for-that{" "}
-                    <span className="args">before we launch</span>
-                  </span>
+                  <span className="slash">/</span>theres-a-skill-for-that{" "}
+                  <span className="args">before we launch</span>
                   <CopyButton text="/theres-a-skill-for-that before we launch" />
                 </div>
                 <div className="usage-example">
-                  <span>
-                    <span className="slash">/</span>theres-a-skill-for-that{" "}
-                    <span className="args">the animations feel wrong</span>
-                  </span>
+                  <span className="slash">/</span>theres-a-skill-for-that{" "}
+                  <span className="args">the animations feel wrong</span>
                   <CopyButton text="/theres-a-skill-for-that the animations feel wrong" />
                 </div>
                 <div className="usage-example">
-                  <span>
-                    <span className="slash">/</span>theres-a-skill-for-that{" "}
-                    <span className="args">push the UI further</span>
-                  </span>
+                  <span className="slash">/</span>theres-a-skill-for-that{" "}
+                  <span className="args">push the UI further</span>
                   <CopyButton text="/theres-a-skill-for-that push the UI further" />
                 </div>
               </div>
@@ -247,12 +229,13 @@ export default function Home() {
               <h2 id="install">Install</h2>
               <p>
                 The whole pack installs in one command. Right now it&rsquo;s
-                just <a href={SKILL_URL}><code>/theres-a-skill-for-that</code></a>,
-                with more coming.
+                just <code>/theres-a-skill-for-that</code>, with more coming.
               </p>
 
               <div className="code-block">
-                <CopyButton text={"npx skills add iamichieuche/kaizen -y -g\n\n/theres-a-skill-for-that"} />
+                <div className="code-block-top">
+                  <CopyButton text={"npx skills add iamichieuche/kaizen -y -g\n\n/theres-a-skill-for-that"} />
+                </div>
                 <pre>
                   <span className="comment"># Install globally</span>
                   {"\n"}
@@ -266,11 +249,12 @@ export default function Home() {
               </div>
 
               <p>
-                The more you have installed, the better it gets. The &ldquo;run
+                The more skills you have installed, the better it gets. The &ldquo;run
                 now&rdquo; picks only come from what&rsquo;s installed, so a
-                bigger toolkit means sharper calls. But it always checks{" "}
-                <a href={SKILL_URL}>skills.sh</a> too. If you&rsquo;re missing
-                something that would actually help, it tells you what to add.
+                bigger toolkit means sharper calls. It always checks{" "}
+                <a href={SKILLS_SH}>skills.sh</a> too, and if you&rsquo;re
+                missing something that would actually help, it tells you what to
+                add.
               </p>
 
               <p>
