@@ -300,12 +300,13 @@ p code {
   margin: 28px 0;
   overflow-x: auto;
   box-shadow: var(--shadow);
+  position: relative;
 }
 
 .code-block-top {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 12px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
 }
 
 .code-block pre {
