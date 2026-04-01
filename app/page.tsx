@@ -26,6 +26,10 @@ export default function Home() {
 
       <main>
         <div className="container">
+          <div className="hero-image">
+            <img src="/kaizen/hero.jpg" alt="" aria-hidden="true" />
+          </div>
+
           <header className="article-header">
             <div className="article-meta">
               <span className="article-date">April 2026</span>
