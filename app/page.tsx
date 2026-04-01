@@ -42,9 +42,9 @@ export default function Home() {
               </p>
               <p>
                 I&rsquo;ve been building out my agent skills toolkit for a
-                while. Things like <code>/polish</code>, <code>/animate</code>,{" "}
-                <code>/delight</code>, <code>/critique</code>,{" "}
-                <code>/typeset</code>. All useful. All slowly fading from my
+                while. Things like <a href="https://skills.sh/pbakaus/impeccable/polish"><code>/polish</code></a>, <a href="https://skills.sh/pbakaus/impeccable/animate"><code>/animate</code></a>,{" "}
+                <a href="https://skills.sh/pbakaus/impeccable/delight"><code>/delight</code></a>, <a href="https://skills.sh/pbakaus/impeccable/critique"><code>/critique</code></a>,{" "}
+                <a href="https://skills.sh/pbakaus/impeccable/typeset"><code>/typeset</code></a>. All useful. All slowly fading from my
                 memory.
               </p>
               <p>
