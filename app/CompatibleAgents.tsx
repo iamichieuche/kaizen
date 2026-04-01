@@ -27,9 +27,9 @@ const agents = [
   {
     name: "Conductor",
     url: "https://conductor.build",
-    color: "#6366F1",
-    // Simplified custom mark since Conductor isn't in public icon libraries
-    path: "M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2zm0 3.5a6.5 6.5 0 0 1 4.33 11.33L7.17 7.67A6.47 6.47 0 0 1 12 5.5zm0 13a6.47 6.47 0 0 1-4.33-1.67l9.16-9.16A6.5 6.5 0 0 1 12 18.5z",
+    color: "#C8A97A",
+    // Staggered block mark matching conductor.build logo
+    path: "M2 2h12v4H2z M16 2h6v4h-6z M2 8h6v4H2z M10 8h12v4H10z M2 14h12v4H2z M16 14h6v4h-6z M2 20h6v4H2z M10 20h12v4H10z",
   },
 ];
 
