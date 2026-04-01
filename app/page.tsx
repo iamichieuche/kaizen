@@ -31,7 +31,7 @@ export default function Home() {
           <div className="article-body">
             <section id="tldr">
               <p className="intro-hook">
-                I have 250+ skills installed.<br />
+                I think I have over 250+ skills installed.<br />
                 <em>Here&rsquo;s the one that ties them together.</em>
               </p>
               <p className="article-lede">
