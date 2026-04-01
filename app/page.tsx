@@ -254,9 +254,9 @@ export default function Home() {
 
               <p>
                 The more skills you have installed, the better it gets. The &ldquo;run
-                now&rdquo; picks only come from what&rsquo;s installed, so a
+                now&rdquo; picks only from what&rsquo;s installed, so a
                 bigger toolkit means sharper calls. It always checks{" "}
-                <a href={SKILLS_SH}>skills.sh</a> too, and if you&rsquo;re
+                <a href={SKILLS_SH}>skills.sh</a>{" "}too, and if you&rsquo;re
                 missing something that would actually help, it tells you what to
                 add.
               </p>
