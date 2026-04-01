@@ -1,9 +1,9 @@
 const agents = [
-  { name: "Claude Code", domain: "claude.ai" },
-  { name: "Cursor", domain: "cursor.com" },
-  { name: "Codex", domain: "openai.com" },
-  { name: "Ghostty", domain: "ghostty.org" },
-  { name: "Conductor", domain: "conductor.build" },
+  { name: "Claude Code", icon: "https://cdn.simpleicons.org/anthropic" },
+  { name: "Cursor", icon: "https://cdn.simpleicons.org/cursor" },
+  { name: "Codex", icon: "https://cdn.simpleicons.org/openai" },
+  { name: "Ghostty", icon: "https://cdn.simpleicons.org/ghostty" },
+  { name: "Conductor", icon: "https://cdn.simpleicons.org/conductor" },
 ];
 
 export default function CompatibleAgents() {
@@ -11,15 +11,9 @@ export default function CompatibleAgents() {
     <div className="compatible-agents">
       <p className="compatible-label">Works in</p>
       <div className="compatible-logos">
-        {agents.map(({ name, domain }) => (
-          <div className="compatible-chip" key={name}>
-            <img
-              src={`https://www.google.com/s2/favicons?domain=${domain}&sz=32`}
-              alt={name}
-              width={16}
-              height={16}
-            />
-            <span>{name}</span>
+        {agents.map(({ name, icon }) => (
+          <div className="compatible-chip" key={name} title={name}>
+            <img src={icon} alt={name} width={28} height={28} />
           </div>
         ))}
       </div>
