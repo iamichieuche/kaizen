@@ -1,9 +1,36 @@
+// SVG paths from simple-icons + inline for OpenAI
 const agents = [
-  { name: "Claude Code", icon: "https://cdn.simpleicons.org/anthropic" },
-  { name: "Cursor", icon: "https://cdn.simpleicons.org/cursor" },
-  { name: "Codex", icon: "https://cdn.simpleicons.org/openai" },
-  { name: "Ghostty", icon: "https://cdn.simpleicons.org/ghostty" },
-  { name: "Conductor", icon: "https://cdn.simpleicons.org/conductor" },
+  {
+    name: "Claude Code",
+    url: "https://claude.ai/code",
+    color: "#D97757",
+    path: "M17.3041 3.541h-3.6718l6.696 16.918H24Zm-10.6082 0L0 20.459h3.7442l1.3693-3.5527h7.0052l1.3693 3.5528h3.7442L10.5363 3.5409Zm-.3712 10.2232 2.2914-5.9456 2.2914 5.9456Z",
+  },
+  {
+    name: "Cursor",
+    url: "https://cursor.com",
+    color: "#555555",
+    path: "M11.503.131 1.891 5.678a.84.84 0 0 0-.42.726v11.188c0 .3.162.575.42.724l9.609 5.55a1 1 0 0 0 .998 0l9.61-5.55a.84.84 0 0 0 .42-.724V6.404a.84.84 0 0 0-.42-.726L12.497.131a1.01 1.01 0 0 0-.996 0M2.657 6.338h18.55c.263 0 .43.287.297.515L12.23 22.918c-.062.107-.229.064-.229-.06V12.335a.59.59 0 0 0-.295-.51l-9.11-5.257c-.109-.063-.064-.23.061-.23",
+  },
+  {
+    name: "Codex",
+    url: "https://openai.com/codex",
+    color: "#10A37F",
+    path: "M22.282 10.187a5.986 5.986 0 0 0-.516-4.911 6.046 6.046 0 0 0-6.51-2.9 6.065 6.065 0 0 0-4.566-2.034 6.056 6.056 0 0 0-5.777 4.196 5.985 5.985 0 0 0-3.998 2.9 6.046 6.046 0 0 0 .743 7.097 5.98 5.98 0 0 0 .511 4.911 6.051 6.051 0 0 0 6.515 2.9A5.985 5.985 0 0 0 13.26 24a6.056 6.056 0 0 0 5.772-4.206 5.99 5.99 0 0 0 3.997-2.9 6.056 6.056 0 0 0-.747-7.016zM13.26 22.43a4.476 4.476 0 0 1-2.876-1.041l.142-.08 4.779-2.758a.776.776 0 0 0 .392-.681v-6.737l2.02 1.168a.07.07 0 0 1 .038.052v5.583a4.504 4.504 0 0 1-4.495 4.494zM3.6 18.304a4.47 4.47 0 0 1-.535-3.014l.142.085 4.783 2.759a.776.776 0 0 0 .781 0l5.843-3.369v2.332a.07.07 0 0 1-.033.062L9.74 19.95A4.5 4.5 0 0 1 3.6 18.304zm-1.26-10.41a4.485 4.485 0 0 1 2.366-1.973v5.557a.77.77 0 0 0 .388.677l5.814 3.354-2.02 1.168a.075.075 0 0 1-.071 0L4.51 13.81A4.504 4.504 0 0 1 2.34 7.894zm16.597 3.856-5.814-3.356 2.015-1.163a.075.075 0 0 1 .071 0l4.83 2.791a4.494 4.494 0 0 1-.676 8.104V12.56a.79.79 0 0 0-.407-.667zm2.01-3.023-.141-.085-4.774-2.782a.776.776 0 0 0-.785 0L9.41 9.23V6.897a.07.07 0 0 1 .028-.061l4.83-2.787a4.5 4.5 0 0 1 6.68 4.66zm-12.64 4.135-2.02-1.164a.07.07 0 0 1-.038-.057V6.074a4.5 4.5 0 0 1 7.376-3.454l-.142.08L8.704 5.46a.776.776 0 0 0-.393.681zm1.097-2.365 2.602-1.5 2.607 1.5v2.999l-2.597 1.5-2.607-1.5Z",
+  },
+  {
+    name: "Ghostty",
+    url: "https://ghostty.org",
+    color: "#3551F3",
+    path: "M12 0C6.7 0 2.4 4.3 2.4 9.6v11.146c0 1.772 1.45 3.267 3.222 3.254a3.18 3.18 0 0 0 1.955-.686 1.96 1.96 0 0 1 2.444 0 3.18 3.18 0 0 0 1.976.686c.75 0 1.436-.257 1.98-.686.715-.563 1.71-.587 2.419-.018.59.476 1.355.743 2.182.699 1.705-.094 3.022-1.537 3.022-3.244V9.601C21.6 4.3 17.302 0 12 0M6.069 6.562a1 1 0 0 1 .46.131l3.578 2.065v.002a.974.974 0 0 1 0 1.687L6.53 12.512a.975.975 0 0 1-.976-1.687L7.67 9.602 5.553 8.38a.975.975 0 0 1 .515-1.818m7.438 2.063h4.7a.975.975 0 1 1 0 1.95h-4.7a.975.975 0 0 1 0-1.95",
+  },
+  {
+    name: "Conductor",
+    url: "https://conductor.build",
+    color: "#6366F1",
+    // Simplified custom mark since Conductor isn't in public icon libraries
+    path: "M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2zm0 3.5a6.5 6.5 0 0 1 4.33 11.33L7.17 7.67A6.47 6.47 0 0 1 12 5.5zm0 13a6.47 6.47 0 0 1-4.33-1.67l9.16-9.16A6.5 6.5 0 0 1 12 18.5z",
+  },
 ];
 
 export default function CompatibleAgents() {
@@ -11,10 +38,20 @@ export default function CompatibleAgents() {
     <div className="compatible-agents">
       <p className="compatible-label">Works in</p>
       <div className="compatible-logos">
-        {agents.map(({ name, icon }) => (
-          <div className="compatible-chip" key={name} title={name}>
-            <img src={icon} alt={name} width={28} height={28} />
-          </div>
+        {agents.map(({ name, url, color, path }) => (
+          <a
+            key={name}
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="compatible-chip"
+            data-tooltip={name}
+            style={{ "--brand-color": color } as React.CSSProperties}
+          >
+            <svg viewBox="0 0 24 24" width="28" height="28" aria-label={name}>
+              <path d={path} fill="currentColor" />
+            </svg>
+          </a>
         ))}
       </div>
       <p className="compatible-footer">
